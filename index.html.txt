@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servnet - Marketplace de Serviços</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="lib/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <div id="header"></div>
+  <div id="navbar"></div>
+
+  <main>
+    <section class="hero">
+      <h1>Conecte-se ao profissional certo, na hora certa</h1>
+      <div class="buttons">
+        <a href="pages/services.html" class="btn">Quero contratar</a>
+        <a href="pages/register.html" class="btn-outline">Quero oferecer meus serviços</a>
+      </div>
+    </section>
+
+    <section class="search">
+      <select>
+        <option>Tipo de serviço</option>
+        <option>Eletricista</option>
+        <option>Pintor</option>
+        <option>Diarista</option>
+      </select>
+      <input type="text" placeholder="Localização" />
+      <button>Buscar</button>
+    </section>
+
+    <section class="features">
+      <div>✅ Avaliações reais</div>
+      <div>⚡ Rapidez</div>
+      <div>🔒 Segurança</div>
+    </section>
+
+    <section class="professionals">
+      <h2>Profissionais em destaque</h2>
+      <div class="card">
+        <img src="assets/images/lucas.jpg" alt="Lucas Almeida" />
+        <h3>Lucas Almeida</h3>
+        <p>Eletricista</p>
+        <span>⭐ 4.8</span>
+        <p>São Paulo, SP</p>
+        <a href="pages/profile.html">Ver perfil</a>
+      </div>
+      <!-- Mais cards -->
+    </section>
+  </main>
+
+  <div id="footer"></div>
+
+  <script src="lib/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/form.js"></script>
+</body>
+</html>
+
+<link rel="stylesheet" href="css/colors.css">
