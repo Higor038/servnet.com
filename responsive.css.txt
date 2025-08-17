@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  input, select, button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}

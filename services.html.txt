@@ -1,0 +1,7 @@
+<h2>Serviços disponíveis</h2>
+<ul>
+  <li>Eletricista</li>
+  <li>Pintor</li>
+  <li>Diarista</li>
+  <li>Montador de móveis</li>
+</ul>

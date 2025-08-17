@@ -1,0 +1,28 @@
+<h2>Painel Administrativo</h2>
+<ul>
+  <li>Ver usuários cadastrados</li>
+  <li>Gerenciar serviços</li>
+  <li>Ver estatísticas</li>
+  <li>Controle de pagamentos</li>
+</ul>
+
+<h2>Painel Administrativo</h2>
+<div class="admin-panel">
+  <button onclick="viewUsers()">Usuários</button>
+  <button onclick="viewServices()">Serviços</button>
+  <button onclick="viewPayments()">Pagamentos</button>
+</div>
+
+<div id="admin-output"></div>
+
+<script>
+  function viewUsers() {
+    document.getElementById("admin-output").innerHTML = "<p>Lista de usuários cadastrados...</p>";
+  }
+  function viewServices() {
+    document.getElementById("admin-output").innerHTML = "<p>Serviços ativos e pendentes...</p>";
+  }
+  function viewPayments() {
+    document.getElementById("admin-output").innerHTML = "<p>Histórico de pagamentos e reembolsos...</p>";
+  }
+</script>

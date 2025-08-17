@@ -1,0 +1,24 @@
+<h2>Chat com Prestador</h2>
+<div id="chat-box">
+  <div class="msg">👤 Cliente: Olá, você está disponível?</div>
+</div>
+<input type="text" id="chat-input" placeholder="Digite sua mensagem..." />
+<button onclick="sendMessage()">Enviar</button>
+
+<script>
+  function sendMessage() {
+    const input = document.getElementById("chat-input");
+    const chat = document.getElementById("chat-box");
+    const msg = input.value.trim();
+    if (msg) {
+      chat.innerHTML += `<div class="msg">🧑 Prestador: ${autoReply(msg)}</div>`;
+      input.value = "";
+    }
+  }
+
+  function autoReply(msg) {
+    if (msg.includes("disponível")) return "Sim, posso atender hoje!";
+    if (msg.includes("valor")) return "O valor depende do serviço. Posso te enviar um orçamento.";
+    return "Obrigado pela mensagem! Já te respondo.";
+  }
+</script>

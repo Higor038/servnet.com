@@ -1,0 +1,14 @@
+<h2>Pagamento</h2>
+<form>
+  <select>
+    <option value="gratis">Plano Grátis – R$0</option>
+    <option value="pro">Plano Pro – R$29,90</option>
+    <option value="premium">Plano Premium – R$59,90</option>
+  </select>
+  <input type="text" placeholder="Número do cartão" required />
+  <input type="text" placeholder="Nome no cartão" required />
+  <input type="text" placeholder="Validade (MM/AA)" required />
+  <input type="text" placeholder="CVV" required />
+  <button type="submit">Pagar com segurança</button>
+</form>
+<p>🔒 Pagamento protegido com criptografia. Reembolso garantido em até 7 dias.</p>

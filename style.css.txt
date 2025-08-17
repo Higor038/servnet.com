@@ -1,0 +1,41 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e8f0fe;
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-outline {
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.professionals {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}

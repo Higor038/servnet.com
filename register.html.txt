@@ -1,0 +1,21 @@
+<h2>Cadastre seu serviço</h2>
+<form>
+  <input type="text" placeholder="Nome completo" />
+  <input type="text" placeholder="Categoria" />
+  <input type="text" placeholder="Cidade/Estado" />
+  <input type="file" accept="image/*,video/*" />
+  <textarea placeholder="Descrição do serviço"></textarea>
+  <button type="submit">Cadastrar</button>
+</form>
+
+<h2>Cadastro</h2>
+<form>
+  <input type="text" placeholder="Nome completo" required />
+  <input type="email" placeholder="E-mail" required />
+  <input type="password" placeholder="Senha" required />
+  <select>
+    <option value="cliente">Sou cliente</option>
+    <option value="prestador">Sou prestador de serviço</option>
+  </select>
+  <button type="submit">Cadastrar</button>
+</form>
